@@ -1071,3 +1071,5 @@ var defaultParams = {
     }
 }
 
+
+document.addEventListener("DOMContentLoaded", doMap(d3.select("svg"),defaultParams), false);
